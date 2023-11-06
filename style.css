@@ -1,0 +1,81 @@
+.header-nav {
+    padding-top: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header-nav-words {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:15px;
+    position: relative;
+    top: 5px;
+    overflow: hidden;
+}
+.header-nav-img {
+    height: 75px;
+    margin-top: 7px;
+}
+.header-main-container {
+    position: relative;
+    left:50px
+}
+.header-main-words {
+    position: relative;
+    top: 0px;
+
+    left: 200px;
+    font-size: 30px;
+}
+.header-main-link {
+    position: relative;
+    top:110px;
+    left: 200px;
+
+}
+.BookingNow {
+    z-index: 1;
+    height: 75px;
+}
+.stripe {
+    height: 620px;
+    width: 600px
+}
+/* .header-main-stripe {
+    position: relative;
+    height: 110px;
+    width: 110px;
+} */
+.header-main-img {
+    position: absolute;
+    border-radius: 25%;
+
+    top: 0px;
+    right: 60px;
+    height: 620px;
+    width: 600px;
+}
+.header-four-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+.Free_Consultation {
+    border: 1px solid black;
+    padding: 20px;
+}
+.Expert_Dentist {
+    border: 1px solid black;
+    padding: 20px;
+}
+.High_User_Rating {
+    border: 1px solid black;
+    padding: 20px;
+}
+.Best_Equipment {
+    border: 1px solid black;
+    padding: 20px;
+}
